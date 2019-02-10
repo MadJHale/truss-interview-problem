@@ -22,6 +22,7 @@ function completion(results, file) {
     fs.writeFile(outputFilePath, processedOutputData, (err) => {
         if (err) throw err;
         console.log('The file has been created here: ' + outputFilePath);
+        process.exit(0);
     });
 }
 

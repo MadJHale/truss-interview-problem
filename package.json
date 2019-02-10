@@ -1,0 +1,20 @@
+{
+  "name": "truss-interview-problem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reader.js",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.23",
+    "papaparse": "^4.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
